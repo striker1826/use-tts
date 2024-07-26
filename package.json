@@ -1,0 +1,38 @@
+{
+  "name": "@striker1826/use-tts",
+  "version": "1.0.6",
+  "description": "An npm library that reads text aloud as it is typed.",
+  "main": "dist/use-tts.js",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/striker1826/use-tts.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "tts",
+    "typescript",
+    "react-hook"
+  ],
+  "author": "minseobKim <alstjq123579@daum.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/striker1826/use-tts/issues"
+  },
+  "homepage": "https://github.com/striker1826/use-tts#readme",
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.12",
+    "@types/react": "^18.3.3",
+    "typescript": "^5.5.4"
+  },
+  "types": "dist/use-tts.d.ts",
+  "dependencies": {}
+}
